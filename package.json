@@ -1,6 +1,6 @@
 ﻿{
   "name": "@azul-tecnologia/commitlint-config",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "commitlint config used by Azul Tecnologia",
   "main": "index.js",
   "license": "MIT",
