@@ -1,0 +1,28 @@
+﻿{
+  "name": "@azul-tecnologia/commitlint-config",
+  "version": "0.0.3",
+  "description": "commitlint config used by Azul Tecnologia",
+  "main": "index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azul-tecnologia/commitlint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/azul-tecnologia/commitlint-config/issues"
+  },
+  "homepage": "https://github.com/azul-tecnologia/commitlint-config#readme",
+  "keywords": [
+    "commitlint",
+    "config",
+    "commitlint-config",
+    "azul-tecnologia",
+    "git"
+  ],
+  "engines": {
+    "node": ">=v10"
+  }
+}
