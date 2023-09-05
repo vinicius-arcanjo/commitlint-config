@@ -67,4 +67,4 @@ yarn commitlint --edit $1
 
 ## License
 
-MIT License © [Link](https://github.com/vinicius-arcanjo)
+MIT License © [Link](https://github.com/vinicius-arcanjo/commitlint-config/blob/main/LICENSE.md)
