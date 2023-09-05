@@ -1,8 +1,8 @@
-# @azul-tecnologia/commitlint-config
+# @vinicius-arcanjo/commitlint-config
 
 
 
-[`commitlint`](https://github.com/conventional-changelog/commitlint) config used by Azul Tecnologia.
+[`commitlint`](https://github.com/conventional-changelog/commitlint) config.
 
 ## Install
 
@@ -10,10 +10,10 @@ You can install it with npm or Yarn.
 
 ```sh
 # npm
-npm i -D @rocketseat/commitlint-config @commitlint/cli
+npm i -D @vinicius-arcanjo/eslint-config @commitlint/cli
 
 # Yarn
-yarn add -D @rocketseat/commitlint-config @commitlint/cli
+yarn add -D @vinicius-arcanjo/eslint-config @commitlint/cli
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ yarn add -D @rocketseat/commitlint-config @commitlint/cli
 After installing it, apply the config to `commitlint` by running the following command:
 
 ```sh
-echo "module.exports = { extends: ['@azul-tecnologia/commitlint-config'] };" > .commitlintrc.js
+echo "module.exports = { extends: ['@vinicius-arcanjo/commitlint-config'] };" > .commitlintrc.js
 ```
 
 ## Bonus
@@ -67,4 +67,4 @@ yarn commitlint --edit $1
 
 ## License
 
-MIT License © [Azul Tecnologia](https://github.com/azul-tecnologia)
+MIT License © [Link](https://github.com/vinicius-arcanjo)
