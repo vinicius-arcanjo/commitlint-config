@@ -6,7 +6,7 @@
 
 ## Install
 
-You can install it with npm or Yarn.
+You can install it with npm, yarn or pnpm.
 
 ```sh
 # npm
@@ -14,6 +14,9 @@ npm i -D @vinicius-arcanjo/eslint-config @commitlint/cli
 
 # Yarn
 yarn add -D @vinicius-arcanjo/eslint-config @commitlint/cli
+
+# Pnpm
+pnpm add -D @vinicius-arcanjo/eslint-config @commitlint/cli
 ```
 
 ## Usage
@@ -34,31 +37,26 @@ npm i -D husky
 
 # Yarn
 yarn add -D husky
+
+# Pnpm
+pnpm add -D husky
 ```
 
 After that, you can create a `.huskyrc` file or add to your `package.json` the following code for
 
-Husky v4:
+Husky:
 
-```json
-{
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  }
-}
+```sh
+# Npm
+npx husky-init
+
+# Yarn
+yarn dlx husky-init --yarn2
+
+# Pnpm
+pnpm dlx husky-init
 ```
 
-Husky v5:
-
-```
-# .husky/commit-msg
-# ...
-npx --no-install commitlint --edit $1
-# or
-yarn commitlint --edit $1
-```
 
 ## Version Support
 
