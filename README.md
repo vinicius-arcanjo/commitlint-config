@@ -19,7 +19,7 @@ yarn add -D @vinicius-arcanjo/eslint-config @commitlint/cli
 pnpm add -D @vinicius-arcanjo/eslint-config @commitlint/cli
 ```
 
-For pnpm you need to create a `.npmrc` file and add the following lines:
+For `pnpm` you need to create a `.npmrc` file and add the following lines:
 
 ```
 registry=https://registry.npmjs.org/
