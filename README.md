@@ -19,6 +19,13 @@ yarn add -D @vinicius-arcanjo/eslint-config @commitlint/cli
 pnpm add -D @vinicius-arcanjo/eslint-config @commitlint/cli
 ```
 
+For pnpm you need to create a `.npmrc` file and add the following lines:
+
+```
+registry=https://registry.npmjs.org/
+@vinicius-arcanjo:registry=https://npm.pkg.github.com
+```
+
 ## Usage
 
 After installing it, apply the config to `commitlint` by running the following command:
