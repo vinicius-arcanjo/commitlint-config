@@ -49,7 +49,18 @@ yarn add -D husky
 pnpm add -D husky
 ```
 
-After that, you can create a `.huskyrc` file or add to your `package.json` the following code for
+After that, add to your `package.json` the following code for
+
+```json
+{
+  "lint-staged": {
+    "src/**/*": [
+      "pnpm lint --fix",
+      "pnpm test --findRelatedTests --bail" //Optional - need to configure test
+    ]
+  }
+}
+```
 
 Husky:
 
@@ -62,6 +73,19 @@ yarn dlx husky-init --yarn2
 
 # Pnpm
 pnpm dlx husky-init
+```
+
+After that
+
+```sh
+npx husky add .husky/commit-msg 'npx --no -- commitlint --edit "$1"'
+```
+
+And then edit the `.husky/pre-commit`
+
+```sh
+#lint stage
+npx --no-install lint-staged
 ```
 
 

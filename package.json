@@ -20,7 +20,9 @@
     "config",
     "commitlint-config",
     "azul-tecnologia",
-    "git"
+    "git",
+    "arcanjo",
+    "vinicus-arcanjo"
   ],
   "engines": {
     "node": ">=v10"
