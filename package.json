@@ -1,7 +1,7 @@
 ﻿{
   "name": "@vinicius-arcanjo/commitlint-config",
   "version": "0.0.1",
-  "description": "commitlint config",
+  "description": "commitlint config.",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
