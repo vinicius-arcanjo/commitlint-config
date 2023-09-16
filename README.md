@@ -6,6 +6,13 @@
 
 ## Install
 
+You need to create a `.npmrc` file and add the following lines:
+
+```
+registry=https://registry.npmjs.org/
+@vinicius-arcanjo:registry=https://npm.pkg.github.com
+```
+
 You can install it with npm, yarn or pnpm.
 
 ```sh
@@ -17,13 +24,6 @@ yarn add -D @vinicius-arcanjo/eslint-config @commitlint/cli
 
 # Pnpm
 pnpm add -D @vinicius-arcanjo/eslint-config @commitlint/cli
-```
-
-For `pnpm` you need to create a `.npmrc` file and add the following lines:
-
-```
-registry=https://registry.npmjs.org/
-@vinicius-arcanjo:registry=https://npm.pkg.github.com
 ```
 
 ## Usage
