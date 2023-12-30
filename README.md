@@ -17,13 +17,13 @@ You can install it with npm, yarn or pnpm.
 
 ```sh
 # npm
-npm i -D @vinicius-arcanjo/eslint-config @commitlint/cli
+npm i -D @vinicius-arcanjo/commitlint-config @commitlint/cli
 
 # Yarn
-yarn add -D @vinicius-arcanjo/eslint-config @commitlint/cli
+yarn add -D @vinicius-arcanjo/commitlint-config @commitlint/cli
 
 # Pnpm
-pnpm add -D @vinicius-arcanjo/eslint-config @commitlint/cli
+pnpm add -D @vinicius-arcanjo/commitlint-config @commitlint/cli
 ```
 
 ## Usage
@@ -34,7 +34,7 @@ After installing it, apply the config to `commitlint` by running the following c
 echo "module.exports = { extends: ['@vinicius-arcanjo/commitlint-config'] };" > .commitlintrc.js
 ```
 
-## Bonus
+## Husky
 
 To lint commits before they are created, install Husky and use the 'commit-msg' hook.
 
@@ -56,7 +56,7 @@ After that, add to your `package.json` the following code for
   "lint-staged": {
     "src/**/*": [
       "pnpm lint --fix",
-      "pnpm test --findRelatedTests --bail" //Optional - need to configure test
+      "pnpm test --findRelatedTests --bail"
     ]
   }
 }
