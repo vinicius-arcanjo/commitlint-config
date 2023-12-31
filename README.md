@@ -1,6 +1,4 @@
-# @vinicius-arcanjo/commitlint-config
-
-
+# CommitLint Config
 
 [`commitlint`](https://github.com/conventional-changelog/commitlint) config.
 
@@ -94,6 +92,10 @@ npx --no-install lint-staged
 - Node.js [LTS](https://github.com/nodejs/LTS#lts-schedule) `>= 10.21.0`
 - git `>= 2.13.2`
 
+## Contributing
+
+Contributions are always welcome! If you wish to add new features or enhance the existing templates, please create a pull request to the appropriate branch.
+
 ## License
 
-MIT License © [Link](https://github.com/vinicius-arcanjo/commitlint-config/blob/main/LICENSE.md)
+This project is under the [MIT License ©](https://github.com/vinicius-arcanjo/commitlint-config/blob/main/LICENSE.md). See the `LICENSE` file in each branch for more details.
